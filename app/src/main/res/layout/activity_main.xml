@@ -73,7 +73,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="Make your bachelor life easier."
-                                android:textColor="@android:color/black"
+                                android:textColor="@android:color/holo_orange_light"
                                 android:textSize="14sp" />
 
                         </LinearLayout>

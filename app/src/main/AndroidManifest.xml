@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.salekur.app.bachelor">
+    package="com.esraturmi.app.bachelor">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
@@ -12,35 +12,35 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".group.CashInOutActivity"
-            android:parentActivityName=".MainActivity"/>
+        <activity android:name="com.esraturmi.app.bachelor.group.CashInOutActivity"
+            android:parentActivityName="com.esraturmi.app.bachelor.MainActivity"/>
         <activity
-            android:name=".group.MemberTransactionActivity"
-            android:parentActivityName=".MainActivity" />
+            android:name="com.esraturmi.app.bachelor.group.MemberTransactionActivity"
+            android:parentActivityName="com.esraturmi.app.bachelor.MainActivity" />
         <activity
-            android:name=".group.AddCostActivity"
-            android:parentActivityName=".MainActivity" />
+            android:name="com.esraturmi.app.bachelor.group.AddCostActivity"
+            android:parentActivityName="com.esraturmi.app.bachelor.MainActivity" />
         <activity
-            android:name=".SettingActivity"
-            android:parentActivityName=".MainActivity" />
-        <activity android:name=".group.ComplainActivity" />
-        <activity android:name=".group.SendCashActivity"
-            android:parentActivityName=".MainActivity"/>
+            android:name="com.esraturmi.app.bachelor.SettingActivity"
+            android:parentActivityName="com.esraturmi.app.bachelor.MainActivity" />
+        <activity android:name="com.esraturmi.app.bachelor.group.ComplainActivity" />
+        <activity android:name="com.esraturmi.app.bachelor.group.SendCashActivity"
+            android:parentActivityName="com.esraturmi.app.bachelor.MainActivity"/>
         <activity
-            android:name=".group.NoticeViewActivity"
-            android:parentActivityName=".MainActivity" />
+            android:name="com.esraturmi.app.bachelor.group.NoticeViewActivity"
+            android:parentActivityName="com.esraturmi.app.bachelor.MainActivity" />
         <activity
-            android:name=".group.AddMealActivity"
-            android:parentActivityName=".MainActivity" />
-        <activity android:name=".group.GroupRequestActivity" />
-        <activity android:name=".group.GroupMemberActivity" />
-        <activity android:name=".ViewProfileActivity" />
-        <activity android:name=".group.JoinGroupActivity" />
-        <activity android:name=".NotificationActivity" />
-        <activity android:name=".SupportActivity" />
-        <activity android:name=".auth.ForgetPasswordActivity" />
-        <activity android:name=".auth.LoginActivity" />
-        <activity android:name=".MainActivity">
+            android:name="com.esraturmi.app.bachelor.group.AddMealActivity"
+            android:parentActivityName="com.esraturmi.app.bachelor.MainActivity" />
+        <activity android:name="com.esraturmi.app.bachelor.group.GroupRequestActivity" />
+        <activity android:name="com.esraturmi.app.bachelor.group.GroupMemberActivity" />
+        <activity android:name="com.esraturmi.app.bachelor.ViewProfileActivity" />
+        <activity android:name="com.esraturmi.app.bachelor.group.JoinGroupActivity" />
+        <activity android:name="com.esraturmi.app.bachelor.NotificationActivity" />
+        <activity android:name="com.esraturmi.app.bachelor.SupportActivity" />
+        <activity android:name="com.esraturmi.app.bachelor.auth.ForgetPasswordActivity" />
+        <activity android:name="com.esraturmi.app.bachelor.auth.LoginActivity" />
+        <activity android:name="com.esraturmi.app.bachelor.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

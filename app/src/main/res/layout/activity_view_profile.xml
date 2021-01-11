@@ -18,7 +18,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:background="@drawable/custom_input"
-        android:backgroundTint="@color/colorAccent">
+        android:backgroundTint="@color/colorGreen">
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/view_profile_image"
@@ -70,7 +70,7 @@
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:src="@drawable/ic_group"
-                app:tint="@android:color/black"/>
+                app:tint="@android:color/holo_orange_light"/>
 
 
             <LinearLayout
@@ -94,7 +94,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="None"
-                    android:textColor="@android:color/black"
+                    android:textColor="@android:color/holo_orange_light"
                     android:textSize="14sp" />
 
             </LinearLayout>
@@ -125,7 +125,7 @@
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:src="@drawable/ic_phone"
-                app:tint="@android:color/black"/>
+                app:tint="@android:color/holo_orange_light"/>
 
 
             <LinearLayout
@@ -149,7 +149,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="None"
-                    android:textColor="@android:color/black"
+                    android:textColor="@android:color/holo_orange_light"
                     android:textSize="14sp" />
 
             </LinearLayout>
@@ -180,7 +180,7 @@
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:src="@drawable/ic_account"
-                app:tint="@android:color/black"/>
+                app:tint="@android:color/holo_orange_light"/>
 
 
             <LinearLayout
@@ -204,7 +204,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="None"
-                    android:textColor="@android:color/black"
+                    android:textColor="@android:color/holo_orange_light"
                     android:textSize="14sp" />
 
             </LinearLayout>
