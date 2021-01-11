@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "370674435285",
+    "firebase_url": "https://bachelor-salekur.firebaseio.com",
+    "project_id": "bachelor-salekur",
+    "storage_bucket": "bachelor-salekur.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370674435285:android:474bc616250509979fce5c",
+        "android_client_info": {
+          "package_name": "com.salekur.app.bachelor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370674435285-igp1a2rfced69t8dm6ic5n60ksb5tm4d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.salekur.app.bachelor",
+            "certificate_hash": "7964fce4069e3ea1f33b768b67d6179a157ba837"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2SNkMnQe3ti2JkHk11OF23dhCdYc1KIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370674435285:android:3b19158359d2f0589fce5c",
+        "android_client_info": {
+          "package_name": "com.salekur.bachelorcoins"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2SNkMnQe3ti2JkHk11OF23dhCdYc1KIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
